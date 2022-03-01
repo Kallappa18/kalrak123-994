@@ -4,5 +4,6 @@ public class Mylove{
 System.out.println("i know you are good,eventhough i am not with you");
 String MysecondLove="qwertyu";
 int a=567;
+System.out.println("hi");
 }
 }
