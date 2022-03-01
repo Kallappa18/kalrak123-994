@@ -6,6 +6,7 @@ public class GitHubDemo {
 		// TODO Auto-generated method stu
 		
 		System.out.println("hi my love");
+		int b=78;
 
 	}
 
