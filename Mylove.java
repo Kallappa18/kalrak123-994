@@ -7,6 +7,7 @@ int a=567;
 System.out.println("hi");
 System.out.println("Hello~!");
 System.out.println("Hello~! hiii");
+String c="hello";
 
 
 
