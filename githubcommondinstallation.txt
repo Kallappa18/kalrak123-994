@@ -144,4 +144,572 @@ E:\LNTGIThub>git config user.email
 kallappatippanagoudra@gmail.com
 
 E:\LNTGIThub>
+===============================================================================
+Microsoft Windows [Version 10.0.19042.1348]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\admin>E:
+
+E:\>LNTGIThub
+'LNTGIThub' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\>cd LNTGIThub
+
+E:\LNTGIThub>git --version
+git version 2.35.1.windows.2
+
+E:\LNTGIThub>git init
+Initialized empty Git repository in E:/LNTGIThub/.git/
+
+E:\LNTGIThub>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Mylove.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+E:\LNTGIThub>git add Mylove.java
+
+E:\LNTGIThub>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Mylove.java
+
+
+E:\LNTGIThub>git commit -m "1st commit"
+[master (root-commit) 72a7dca] 1st commit
+ 1 file changed, 6 insertions(+)
+ create mode 100644 Mylove.java
+
+E:\LNTGIThub>git config
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-pattern]
+    --get-all             get all values: key [value-pattern]
+    --get-regexp          get values for regexp: name-regex [value-pattern]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value-pattern]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-pattern]
+    --unset-all           remove all matches: name [value-pattern]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    --fixed-value         use string equality when comparing values to 'value-pattern'
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+
+E:\LNTGIThub>git config user.email
+veerangoudass7@gmail.com
+
+E:\LNTGIThub>git config --global user.email "kallappatippanagoudra@gmail.com"
+
+E:\LNTGIThub>git config
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-pattern]
+    --get-all             get all values: key [value-pattern]
+    --get-regexp          get values for regexp: name-regex [value-pattern]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value-pattern]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-pattern]
+    --unset-all           remove all matches: name [value-pattern]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    --fixed-value         use string equality when comparing values to 'value-pattern'
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+
+E:\LNTGIThub>git config user.email
+kallappatippanagoudra@gmail.com
+
+E:\LNTGIThub>git log
+commit 72a7dca52e1ae5fbf05dc72fa7a25ad744df502e (HEAD -> master)
+Author: veerangouda <veerangoudass7@gmail.com>
+Date:   Tue Mar 1 12:27:15 2022 +0530
+
+    1st commit
+
+E:\LNTGIThub>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Mylove.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        githubcommondinstallation.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+E:\LNTGIThub>git add Mylove.java
+
+E:\LNTGIThub>git commit -m "2nd commit"
+[master e27abf0] 2nd commit
+ 1 file changed, 1 insertion(+)
+
+E:\LNTGIThub>git log
+commit e27abf023bbdeb87c0faea8a40346af43d9c1374 (HEAD -> master)
+Author: veerangouda <kallappatippanagoudra@gmail.com>
+Date:   Tue Mar 1 12:44:00 2022 +0530
+
+    2nd commit
+
+commit 72a7dca52e1ae5fbf05dc72fa7a25ad744df502e
+Author: veerangouda <veerangoudass7@gmail.com>
+Date:   Tue Mar 1 12:27:15 2022 +0530
+
+    1st commit
+
+E:\LNTGIThub>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Mylove.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        githubcommondinstallation.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+E:\LNTGIThub>git commit -m "3rd commit"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Mylove.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        githubcommondinstallation.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+E:\LNTGIThub>git add Mylove.java
+
+E:\LNTGIThub>git commit -m "3rd commit"
+[master ccef56c] 3rd commit
+ 1 file changed, 1 insertion(+)
+
+E:\LNTGIThub>git log
+commit ccef56cf19b9bba10865044114281b60a5ce0ebf (HEAD -> master)
+Author: veerangouda <kallappatippanagoudra@gmail.com>
+Date:   Tue Mar 1 12:45:37 2022 +0530
+
+    3rd commit
+
+commit e27abf023bbdeb87c0faea8a40346af43d9c1374
+Author: veerangouda <kallappatippanagoudra@gmail.com>
+Date:   Tue Mar 1 12:44:00 2022 +0530
+
+    2nd commit
+
+commit 72a7dca52e1ae5fbf05dc72fa7a25ad744df502e
+Author: veerangouda <veerangoudass7@gmail.com>
+Date:   Tue Mar 1 12:27:15 2022 +0530
+
+    1st commit
+
+E:\LNTGIThub>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Mylove.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        githubcommondinstallation.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+E:\LNTGIThub>git add Mylove.java
+
+E:\LNTGIThub>git commit -m "4th commit"
+[master cc0ac9f] 4th commit
+ 1 file changed, 1 insertion(+)
+
+E:\LNTGIThub>git log
+commit cc0ac9fbfe4b74c690d3c91c3969928451d7e161 (HEAD -> master)
+Author: veerangouda <kallappatippanagoudra@gmail.com>
+Date:   Tue Mar 1 12:46:50 2022 +0530
+
+    4th commit
+
+commit ccef56cf19b9bba10865044114281b60a5ce0ebf
+Author: veerangouda <kallappatippanagoudra@gmail.com>
+Date:   Tue Mar 1 12:45:37 2022 +0530
+
+    3rd commit
+
+commit e27abf023bbdeb87c0faea8a40346af43d9c1374
+Author: veerangouda <kallappatippanagoudra@gmail.com>
+Date:   Tue Mar 1 12:44:00 2022 +0530
+
+    2nd commit
+
+commit 72a7dca52e1ae5fbf05dc72fa7a25ad744df502e
+Author: veerangouda <veerangoudass7@gmail.com>
+Date:   Tue Mar 1 12:27:15 2022 +0530
+
+    1st commit
+
+E:\LNTGIThub>git config --global user.name "kallappa18"
+
+E:\LNTGIThub>git config user.name
+kallappa18
+
+E:\LNTGIThub>git add Mylove.java
+
+E:\LNTGIThub>git commit -m "5th commit"
+[master 3172b23] 5th commit
+ 1 file changed, 3 insertions(+)
+
+E:\LNTGIThub>git log
+commit 3172b238f81959f65c0b65a7e300396924f65660 (HEAD -> master)
+Author: kallappa18 <kallappatippanagoudra@gmail.com>
+Date:   Tue Mar 1 12:52:51 2022 +0530
+
+    5th commit
+
+commit cc0ac9fbfe4b74c690d3c91c3969928451d7e161
+Author: veerangouda <kallappatippanagoudra@gmail.com>
+Date:   Tue Mar 1 12:46:50 2022 +0530
+
+    4th commit
+
+commit ccef56cf19b9bba10865044114281b60a5ce0ebf
+Author: veerangouda <kallappatippanagoudra@gmail.com>
+Date:   Tue Mar 1 12:45:37 2022 +0530
+
+    3rd commit
+
+commit e27abf023bbdeb87c0faea8a40346af43d9c1374
+Author: veerangouda <kallappatippanagoudra@gmail.com>
+Date:   Tue Mar 1 12:44:00 2022 +0530
+
+    2nd commit
+
+commit 72a7dca52e1ae5fbf05dc72fa7a25ad744df502e
+Author: veerangouda <veerangoudass7@gmail.com>
+Date:   Tue Mar 1 12:27:15 2022 +0530
+
+    1st commit
+
+E:\LNTGIThub>git reset --hard 72a7dca52e1ae5fbf05dc72fa7a25ad744df502e
+HEAD is now at 72a7dca 1st commit
+
+E:\LNTGIThub>git remote add origin https://github.com/Kallappa18/KALRAK_JAVA994.git
+
+E:\LNTGIThub>git push origin master
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 331 bytes | 66.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Kallappa18/KALRAK_JAVA994.git
+ * [new branch]      master -> master
+
+E:\LNTGIThub>git push origin master
+Everything up-to-date
+
+E:\LNTGIThub>git reset --hard 3172b238f81959f65c0b65a7e300396924f65660
+HEAD is now at 3172b23 5th commit
+
+E:\LNTGIThub>git remote add origin https://github.com/Kallappa18/KALRAK_JAVA994.git
+error: remote origin already exists.
+
+E:\LNTGIThub>git push origin master
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (12/12), 1.07 KiB | 25.00 KiB/s, done.
+Total 12 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/Kallappa18/KALRAK_JAVA994.git
+   72a7dca..3172b23  master -> master
+
+E:\LNTGIThub>git add .
+
+E:\LNTGIThub>git commit -m "comitting"
+[master 5f471f7] comitting
+ 1 file changed, 147 insertions(+)
+ create mode 100644 githubcommondinstallation.txt
+
+E:\LNTGIThub>git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.58 KiB | 40.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Kallappa18/KALRAK_JAVA994.git
+   3172b23..5f471f7  master -> master
+
+E:\LNTGIThub>git add Mylove.java
+
+E:\LNTGIThub>git commit -m "6th commit"
+[master 383587c] 6th commit
+ 1 file changed, 2 insertions(+)
+
+E:\LNTGIThub>git add .
+
+E:\LNTGIThub>git commit -m "comitting"
+On branch master
+nothing to commit, working tree clean
+
+E:\LNTGIThub>git commit -m "comitting"
+On branch master
+nothing to commit, working tree clean
+
+E:\LNTGIThub>git pull https://github.com/Kallappa18/KALRAK_JAVA994.git
+From https://github.com/Kallappa18/KALRAK_JAVA994
+ * branch            HEAD       -> FETCH_HEAD
+Already up to date.
+
+E:\LNTGIThub>git add .
+
+E:\LNTGIThub>git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 353 bytes | 16.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Kallappa18/KALRAK_JAVA994.git
+   5f471f7..383587c  master -> master
+
+E:\LNTGIThub>git pull https://github.com/Kallappa18/KALRAK_JAVA994.git
+From https://github.com/Kallappa18/KALRAK_JAVA994
+ * branch            HEAD       -> FETCH_HEAD
+Already up to date.
+
+E:\LNTGIThub>git add .
+
+E:\LNTGIThub>git commit -m "added hello"
+[master 6e459ba] added hello
+ 1 file changed, 1 insertion(+)
+
+E:\LNTGIThub>git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 354 bytes | 14.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Kallappa18/KALRAK_JAVA994.git
+   383587c..6e459ba  master -> master
+
+E:\LNTGIThub>git add Mylove.java
+
+E:\LNTGIThub>git commit -m "added p"
+On branch master
+nothing to commit, working tree clean
+
+E:\LNTGIThub>git commit -m "added p"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Mylove.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+E:\LNTGIThub>git push origin master
+Everything up-to-date
+
+E:\LNTGIThub>git commit -m "added p"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Mylove.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+E:\LNTGIThub>git add Mylove.java
+
+E:\LNTGIThub>git commit -m "added p"
+[master ba53075] added p
+ 1 file changed, 1 insertion(+)
+
+E:\LNTGIThub>git push origin master
+To https://github.com/Kallappa18/KALRAK_JAVA994.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/Kallappa18/KALRAK_JAVA994.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+E:\LNTGIThub>git pull https://github.com/Kallappa18/KALRAK_JAVA994.git
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 722 bytes | 3.00 KiB/s, done.
+From https://github.com/Kallappa18/KALRAK_JAVA994
+ * branch            HEAD       -> FETCH_HEAD
+Auto-merging Mylove.java
+CONFLICT (content): Merge conflict in Mylove.java
+Automatic merge failed; fix conflicts and then commit the result.
+
+E:\LNTGIThub>git add .
+
+E:\LNTGIThub>git push origin master
+To https://github.com/Kallappa18/KALRAK_JAVA994.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Kallappa18/KALRAK_JAVA994.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+E:\LNTGIThub>git pull https://github.com/Kallappa18/KALRAK_JAVA994.git
+error: You have not concluded your merge (MERGE_HEAD exists).
+hint: Please, commit your changes before merging.
+fatal: Exiting because of unfinished merge.
+
+E:\LNTGIThub>git pull https://github.com/Kallappa18/KALRAK_JAVA994.git
+error: You have not concluded your merge (MERGE_HEAD exists).
+hint: Please, commit your changes before merging.
+fatal: Exiting because of unfinished merge.
+
+E:\LNTGIThub>git push origin master
+To https://github.com/Kallappa18/KALRAK_JAVA994.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Kallappa18/KALRAK_JAVA994.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+E:\LNTGIThub>git pull https://github.com/Kallappa18/KALRAK_JAVA994.git
+error: You have not concluded your merge (MERGE_HEAD exists).
+hint: Please, commit your changes before merging.
+fatal: Exiting because of unfinished merge.
+
+E:\LNTGIThub>git add .
+
+E:\LNTGIThub>git commit -m "resolved conflict"
+[master 4f05fae] resolved conflict
+
+E:\LNTGIThub>git push origin master
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 763 bytes | 34.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/Kallappa18/KALRAK_JAVA994.git
+   e25756f..4f05fae  master -> master
+
+E:\LNTGIThub>git log
+commit 4f05fae88364a9caf4ada93c84239d2ed2512158 (HEAD -> master, origin/master)
+Merge: ba53075 e25756f
+Author: kallappa18 <kallappatippanagoudra@gmail.com>
+Date:   Tue Mar 1 16:43:53 2022 +0530
+
+    resolved conflict
+
+commit e25756f0bc0dd96ec98789bb8e7dcca684a1e6e9
+Author: Kallappa18 <97930904+Kallappa18@users.noreply.github.com>
+Date:   Tue Mar 1 15:59:28 2022 +0530
+
+    Update Mylove.java
+
+commit ba530755cd2bfbee3f4926bcd84f17e441607936
+Author: kallappa18 <kallappatippanagoudra@gmail.com>
+Date:   Tue Mar 1 15:56:39 2022 +0530
+
+    added p
+
+commit 6e459ba7b1d51e7309e43376e1b94648248ce1a1
+Author: kallappa18 <kallappatippanagoudra@gmail.com>
+Date:   Tue Mar 1 15:47:24 2022 +0530
+
+    added hello
+
+commit 383587ce3829ba7272a316c4a99762a2db491a97
+Author: kallappa18 <kallappatippanagoudra@gmail.com>
+Date:   Tue Mar 1 15:20:19 2022 +0530
+
+:
 
